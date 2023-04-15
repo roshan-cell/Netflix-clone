@@ -1,10 +1,10 @@
-import  {AcUnit} from "@mui/material"
+import AcUnitIcon from '@mui/icons-material/AcUnit';
 import "./home.css"
 
 const Home = () => {
   return (
     <div className="home">
-        <AcUnit/>
+        <AcUnitIcon/>
     </div>
   )
 }
