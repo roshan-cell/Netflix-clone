@@ -1,9 +1,12 @@
-import React from 'react'
+import  {AcUnit} from "@mui/material"
+import "./home.css"
 
-export default function home() {
+const Home = () => {
   return (
-    <div>home fuhhfeuefhvufehvuehuheuhuehvuehvue
-      <div>hello</div>
+    <div className="home">
+        <AcUnit/>
     </div>
   )
 }
+
+export default Home 
